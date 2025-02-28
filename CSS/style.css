@@ -38,6 +38,8 @@
         width: 40%;
         border-collapse: 2px;
         border: 40px;
-        
 
+       }
+       .form{
+        width: 100%;
        }
