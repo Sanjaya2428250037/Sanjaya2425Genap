@@ -7,8 +7,37 @@
                 color: brown;
             }
             .bg-primary {
-                background-color: blanchedalmond;
+                background-color: rgb(240, 146, 6);
+            }
+            .bg-success{
+                background-color: black;
             }
             .text-warning{
                 color: blueviolet;
             }
+            .m-1{
+                margin: 20px;
+            }
+            .raunded{
+                border-radius: 20px;
+            }
+        .p-1 {
+            padding: 10px;
+        }
+       a{
+        color: aliceblue;
+        text-decoration: none;
+       }
+       a:hover{
+        color: blanchedalmond;
+        background-color: aquamarine;
+        border-radius: 10px;
+        padding: 20px;
+       }
+       table {
+        width: 40%;
+        border-collapse: 2px;
+        border: 40px;
+        
+
+       }
