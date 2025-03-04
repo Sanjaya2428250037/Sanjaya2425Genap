@@ -1,0 +1,22 @@
+/* style hp */
+body{
+    background-color: brown;
+}
+/* style tablet */
+@media screen and (min-width: 600px) {
+    body{
+        background-color: blue;
+    }
+    
+}
+/* style dekstop */
+@media screen and (min-width: 992px) {
+    body{
+        background-color: aqua;
+    }
+     .col-lg-3{
+     width: 25%;
+     background-color: blueviolet;
+     float: left;
+    }
+}
