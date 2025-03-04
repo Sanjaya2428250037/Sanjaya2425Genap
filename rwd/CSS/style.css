@@ -12,6 +12,11 @@ body{
      background-color: rgb(49, 0, 95);
      float: left;
     }
+     .col-md-60{
+     width: 100%;
+     background-color: rgb(49, 0, 95);
+     float: left;
+    }
 }
 /* style dekstop */
 @media screen and (min-width: 992px) {
@@ -23,6 +28,12 @@ body{
      background-color: blueviolet;
      float: left;
     }
+     .col-lg-33{
+     width: 33.33%;
+     background-color: rgb(171, 226, 43);
+     float: left;
+    }
+    
 }
 
 img{
