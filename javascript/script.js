@@ -41,3 +41,15 @@ fetch('https://data.bmkg.go.id/DataMKG/TEWS/gempaterkini.json')
     </li>`
     })
 })
+
+console.log(gempa);
+nilai.forEach( (g)=> {
+    document.getElementById('gempa').innerHTML += 
+    `<tr> 
+        <td> ${g.Wilayah} </td>
+        <td> ${g.Tanggal} </td>
+        <td> ${g.Jam} </td>
+        <td> ${g.Potensi} </td>
+    </tr>`;
+  
+})
